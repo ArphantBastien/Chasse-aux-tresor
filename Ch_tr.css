@@ -1,0 +1,79 @@
+/* format tableau */
+@font-face {
+	font-family: 'police';
+	src: url('Lola.ttf');
+}
+#cartedujeu {
+background: url(carte.png);
+border-width: 1px;
+border-color: black;
+border-style: solid;
+border-collapse: collapse;
+width:500px;
+height:356px;
+}
+
+/* Largeur et hauteur des cases de la grille */
+td {
+width:40px;
+height:40px;
+border-width: 1px;
+border-color: black;
+border-style: solid;
+}
+/* Gestion des blocs de classe "cadre" */
+.cadre {
+display: inline-block;
+/*margin: 1em;*/
+font-size: 18px;
+}
+/* Couleurs des cases, avec opacité de 0.9 */
+.bad {
+background:rgba(200,0,0,0.9);
+}
+.good {
+background:cyan;
+}
+.goodcolonne {
+background:yellow;
+}
+.goodline {
+background:orange;
+}
+body {
+	background-image: url(fond.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1 {
+	font-family:police;
+	font-size: 70px;
+	text-align: center;
+	color: #400C3F;
+}
+
+td {
+	font-family:police;
+	font-size: 10px;
+	text-align: center;
+	color: #00000;
+}
+
+div {
+	font-family:police;
+	font-size: 10px;
+	color: #00000;
+}
+
+p {
+	font-family:police;
+	font-size: 30px;
+	color: #00000;
+}
+
+h3 {
+	font-family:police;
+	font-size: 20px;
+	color: #1D6F64;
+}
